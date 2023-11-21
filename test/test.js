@@ -1,5 +1,5 @@
 const User = require('../models/User');
-const app = require('../server'); // Импортируем ваш сервер
+const app = require('../server'); 
 const request = require('supertest');
 const expect = require('chai').expect;
 
